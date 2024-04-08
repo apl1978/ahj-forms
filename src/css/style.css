@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 100px;
+}
+
+.btn {
+    background-color: red;
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+}
+
+.popover {
+    display: block;
+    position: absolute;
+    max-width: 276px;
+    margin-bottom: 8px;
+    z-index: 999;
+    border: 1px solid rgba(0,0,0,.2);
+    transition: opacity .5s linear;
+    opacity: 0;
+}
+
+.popover-header {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.popover-body {
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.visible {
+    opacity: 1;
+}
